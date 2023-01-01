@@ -1,2 +1,1 @@
-image:
-  file: .gitpod.Docker
+image: gitpod/workspace-dotnet
