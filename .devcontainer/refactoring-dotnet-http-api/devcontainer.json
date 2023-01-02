@@ -1,7 +1,17 @@
 {
+    "name": "code-samples/refactoring-dotnet-http-api",
     "image": "mcr.microsoft.com/vscode/devcontainers/dotnet:6.0",
-
     "customizations": {
+        "codespaces": {
+            "repositories": {
+                "amirulmenjeni/code-samples": {
+                    "permissions": {
+                        "contents": "write",
+                        "pull_requests": "write"
+                    }
+                }
+            }
+        },
         "vscode": {
             "extensions": [
                 "ms-dotnettools.csharp"
